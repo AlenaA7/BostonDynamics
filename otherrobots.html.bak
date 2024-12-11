@@ -1,0 +1,183 @@
+<html>
+ <head>
+ <meta charset="url-8">
+  <title> Другие роботы </title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#all').fadeIn();
+ 
+} else {
+ 
+$('#all').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#all').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+</head> 
+ <body>
+  <a id="up"><a>
+     <div id="maket">
+	 
+	   <div id="header" > <a href="https://www.bostondynamics.com/" title="сайт Boston Dynamics"><img src="img/page (img)/boston_dynamics.jpg" id="bost" /></a>  <h1> Немного о Boston Dynamics  </h1>  </div>
+   <div class="all"> <ul class="ul2">  <li> <a href="index.html"> <img src="img/page (img)/consoul.png"/> <div class="back"> Назад </div> </a> </li> </ul> </div>
+<div id="menu"> 
+	 <ul>
+	   <li><a href="home.html">Главная </a> </li>
+    	
+	  <li> <a>Компания <b class="arrow "></b></a>
+	  <ul><li><a href="history.html">История</a></li>
+	  <li><a href="future.html">О продукции</a></li>
+	  </ul></li> 	
+	  <li><a>Роботы <b class="arrow "></b> </a>
+     <ul style="margin-left: 25px">
+      <li><a href="spot.html">Spot </a></li>
+      <li><a href="atlas.html">Atlas </a></li>
+      <li><a href="bigdog.html">BigDog </a></li>
+      <li><a href="otherrobots.html">Другие роботы </a></li>
+     </ul></li>
+  </ul>
+</div>
+	
+
+	 <div id="main"> 
+
+	<h2>Другие роботы</h2>
+	<ol>
+	<h4>Содержание</h4>
+	<div class="keep">
+<li> <a href="#rise">RiSE </a></li>
+<li>  <a href="#petman">PETMAN</a></li>
+<li>  <a href="#handle">Handle</a></li>
+<li>  <a href="#stretch">Stretch</a></li>
+<li>  <a href="#cheetah">Cheetah</a></li>
+<li>  <a href="#wildcat">WildCat</a></li>
+<li>  <a href="#sand">Sand Flea</a></li>
+<li>  <a href="#rhex">RHex</a></li>
+      </div> 
+	  </ol>
+	   
+	   <a id="rise"></a>
+	 <h3> RiSE  </h3> 
+        
+ <p>RiSE — шестиногий робот, способный передвигаться  в вертикальном направлении.</p>
+
+<ul style="list-style-type: none"> 
+<li>Длина RiSE - 0.25 м, </li>
+<li>  масса - 2 кг,</li>
+<li>а скорость - 0,3 м/с.</li> 
+</ul>
+<img src="img/otherrobots (img)/rise.jpg" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MZGGL20g99A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p> На каждая нога имеет микрозацепы и управляется двумя электромоторами. Робот способен менять свою позу в зависимости от рельефа поверхности. У RiSE есть хвост, который помогает ему при перемещении. Связь и обработку данных сенсоров обеспечивает бортовой компьютер.</p>
+              <a id="petman"></a>
+ <h3>PETMAN</h3>     
+<p>PETMAN — антропоморфный робот. Его создали, чтобы тестировать средства индивидуальной защиты, имитируя физиологию человека.</p>
+<img src="img/otherrobots (img)/petman.jpg" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tFrjrgBV8K0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>PETMAN измеряет и контролирует температуру, влажность и потоотделение внутри одежды, снимает показания датчиков, обнаруживающих химические вещества, протекающие через костюм.</p>
+            <a id="handle"></a>
+ <h3>Handle </h3> 
+<ul style="list-style-type: none"> 
+<li>Высота робота - 2 метра, </li>
+<li>  вес – больше 100 кг,</li>
+<li>максимальный вес переносимого груза 45 кг,</li> 
+<li>скорость движения до 4 м/с,</li> 
+<li>высота прыжка 1,2 метра.</li> 
+</ul>
+<img src="img/otherrobots (img)/handle.jpg" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-7xvqQeoA8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>Всего у робота 10 шарниров. На задних ногах расположены колеса, позволяющие быстро ездить на плоских поверхностях. Давление в гидравлической системе создается электрическим двигателем, который питается от аккумулятора. Батареи хватает на 24 км хода. Модель умеет разворачиваться на месте, приседать, вставать и переносить груз в «руках».</p>
+                <a id="stretch"></a>
+ <h3>Stretch</h3> 
+ 
+<p>Stretch — робот, предназначенный для операций с коробками и ящиками в условиях ограниченного пространства. Stretch может самостоятельно разгружать 800 коробок за час. Для работы использует вакуумные присоски. Он умеет работать с грузами сложной конфигурации, распознавать предметы и препятствия.</p>
+<img src="img/otherrobots (img)/stretch.jpg" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yYUuWWnfRsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                 <a id="cheetah"></a>
+ <h3>Cheetah</h3> 
+<p>Cheetah - самый быстрый шагающий робот в мире. Его скорость составила 48 км/час. Однако свое перемещение он осуществляет только по беговой дорожке. Конструкция спины, повторяя движения гепарда, способна сгибаться вперед и назад, контролируя длину и скорость шага.</p>
+<img src="img/otherrobots (img)/cheetah.jpg" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/chPanW0QWhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <a id="wildcat"></a>
+ <h3>WildCat</h3> 
+<p>WildCat– улучшенная версия Cheetah. Максимальная скорость - 35 км/час, а передвижение свободно в окружающем мире.  </p>
+<p>Высотой робот 1,2 метра, а весом больше 150 кг. Механизм работает на ДВС, который приводит в действие насос гидравлической системы.</p>
+<img src="img/otherrobots (img)/wildcat.jpg" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wE3fmFTtP9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+                <a id="sand"></a>
+ <h3>Sand Flea</h3> 
+<p>Sand Flea – это четырехколесный робот, способный прыгать совершать прыжки на высоту до 10 метров. Высота машины 15 см, а вес 5,5 кг.</p>
+<img src="img/otherrobots (img)/sandflea.png" class="robot"/>
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6b4ZZQkcNEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>Прыжки совершаются за счет сжатого углекислого газа, запас которого хватает примерно на 25 прыжков. Во время полета встроенная система стабилизации сохраняет ориентацию, а видеокамеры обеспечивают круговой обзор.</p>
+                 <a id="rhex"></a>
+ <h3>RHex </h3> 
+<p>Высота достигает 14 сантиметров, вес 12 кг. </p>
+<img src="img/otherrobots (img)/rhex.jpeg" class="robot"/>
+
+<div class="vide">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ISznqY3kESI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>Благодаря герметичному корпусу RHex может передвигаться во влажной среде, болотистой и грязной местности. Строение шести ног позволяет преодолевать различные препятствия, например, песок, растительность и лестницы. Робот в состоянии переносить до 2 кг. Он оснащен впереди и сзади встроенными видеокамерами. Управляется с помощью радиосигнала и способен работать до 4-5 часов.</p>
+
+</div>
+
+
+
+
+  <div id="footer">
+    <div class="logo"><a href="https://www.bostondynamics.com/"  title="сайт Boston Dynamics"><img src="img/page (img)/logotip.png" /></a> </div>
+<div class="origin"> 
+<h5>Источники:</h5>
+<ul style="list-style-type: none">
+<li><a href="https://habr.com/ru/post/521878/"> https://habr.com/ru/post/521878/</a></li>
+<li><a href=" https://ru.wikipedia.org/wiki/Boston_Dynamics">  https://ru.wikipedia.org/wiki/Boston_Dynamics</a></li>
+<li><a href="https://www.overclockers.ua/editorial/boston-dynamics-robots/">https://www.overclockers.ua/editorial/boston-dynamics-robots/ </a></li>
+ <li><a href="https://vc.ru/future/25909-boston-dynamics-robots"> https://vc.ru/future/25909-boston-dynamics-robots</a></li>
+ <li><a href="https://habr.com/ru/post/539290/"> https://habr.com/ru/post/539290/</a></li>
+  <li><a href="https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html"> https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html</a></li>
+   <li><a href="https://www.bostondynamics.com/"> https://www.bostondynamics.com/</a></li>
+   <li><a href="https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i">https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i</a></li>
+   <li><a href="https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/">https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/</a></li>
+
+ </ul>
+</div>
+<div class="author"><p>© Шевелева Алёна  Омск 2022 </p></div>
+</div>
+</div>
+   <div class="all" id="all"> <ul class="ul">  <li> <a href="#up">  <img src="img/page (img)/sand flea.png" id="jump" /> <div class="upwerds"> Наверх </div> </a> </li> </ul> </div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css" />
+<title> Немного о Boston Dynamics </title>
+<script>
+  window.onload = function() {
+    // к этому моменту страница загружена
+    alert(`Image size: ${img.offsetWidth}x${img.offsetHeight}`);
+  };
+</script>
+
+</head>
+<body>
+
+    10% { 
+	position:absolute;
+	left:701px;
+	top:21px;
+	transform: rotate(0deg); }
+    15% {
+position:absolute;		
+	left:701px;
+	top:21px;
+	transform: rotate(-15deg); }
+    25% { 
+	position:absolute;	
+	left:297px;
+	top:201px;
+	transform: rotate(-15deg); }
+	30%{ 
+	position:absolute;	
+	left:55px;
+	top:361px;
+	transform: rotate(-20deg); }
+
+<div id="shakeb"> 
+<p> </p><a  class="buttem" data-title="Робот Spot" href="spot.html"> <img  id="Y" src="img/index (img)/buttem y.png"/> </a>
+<a  class="buttem" data-title="Робот BigDog" href="bigdog.html"> <img  id="B" src="img/index (img)/buttem b.png"/> </a>
+<a  class="buttem" data-title="Робот Atlas" href="atlas.html"> <img  id="X" src="img/index (img)/buttem x.png"/> </a>
+<a  class="buttem" data-title="Другие роботы" href="otherrobots.html"> <img  id="A" src="img/index (img)/buttem a.png"/> </a>
+<a  class="buttem" data-title="Главная" href="home.html"> <img  id="home" src="img/index (img)/buttem 1.png"/> </a>
+<a  class="buttem" data-title="О продукции" href="future.html"> <img  id="future" src="img/index (img)/set.png"/> </a>
+<a  class="buttem" data-title="История компании" href="history.html"> <img  id="history" src="img/index (img)/start.png"/> </a>
+</div>
+<img src="img/index (img)/spot_tablet.png" id="shake"  / >
+<img src="img/index (img)/arrow.png" id="arrow"/>
+
+</body>
+</html>

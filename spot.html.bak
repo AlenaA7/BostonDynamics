@@ -1,0 +1,200 @@
+<html>
+ <head>
+ <meta charset="url-8">
+  <title>  Spot</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="shortikon" href="favicon.ico" type="image/x-icon" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#all').fadeIn();
+ 
+} else {
+ 
+$('#all').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#all').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+ 
+ 
+
+</script>
+</head> 
+ <body>
+
+  <a id="up"><a>
+       <div id="maket">
+   	   <div id="header" >   <a href="https://www.bostondynamics.com/" title="Офицальный сайт Boston Dynamics"><img src="img/page (img)/boston_dynamics.jpg" id="bost" /></a>  <h1> Немного о Boston Dynamics  </h1>  </div>
+<div class="all"> <ul class="ul2">  <li> <a href="index.html"> <img src="img/page (img)/consoul.png"/> <div class="back"> Назад </div> </a> </li> </ul> </div>
+<div id="menu"> 
+	 <ul>
+	   <a href="home.html"><li>Главная  </li></a>
+    	
+	  <li> <a>Компания <b class="arrow "></b></a>
+	  <ul><li><a href="history.html">История</a></li>
+	  <li><a href="future.html">О продукции</a></li>
+	  </ul></li> 	
+	  <li><a>Роботы <b class="arrow "></b> </a>
+     <ul style="margin-left: 25px">
+      <li><a href="spot.html">Spot </a></li>
+      <li><a href="atlas.html">Atlas </a></li>
+      <li><a href="bigdog.html">BigDog </a></li>
+      <li><a href="otherrobots.html">Другие роботы </a></li>
+     </ul></li>
+  </ul>
+</div>
+
+	 <div id="main"> 
+	<h2>SPOT</h2>
+	<img src="img/spot (img)/spot_1.jpeg" class="none-img" style="margin-top:0"/>
+	 <h3> Краткая характеристика</h3> 
+
+ <p> Spot – это четырехногий робот, напоминающий собаку.</p>
+  <a class="deep" alt="Spot является аналогом BigDog."><img src="img/spot (img)/spot_dog1.png" /></a>
+<ul style="list-style-type: none"> 
+<li> Длина Spot составляет 110 см </li>
+<li>ширина – 50 см</li>
+<li>высотой он до 70 см</li>
+<li>вес около 25 кг. </li> </ul>
+ 
+<h3>Передвижение</h3> 
+<p>Скорость робота развивается до 1,6 м/сек - 5,76 км/ч (что примерно равно скорости человека при быстрой ходьбе). Робот одинаково быстро движется	
+ и вперед, и назад.</p>
+ <img src="img/spot (img)/run.jpeg" class="none-img"/>
+
+<p>Всего в конечностях 12 электрических приводов – по 1 в коленных суставах, и по 2 в бедренных. На конце каждой лапы есть протекторы. </p>
+
+<p>Благодаря данной конструкции увеличивается возможности робота: он может двигать приставным шагом, разворачиваться на месте, ложиться, вставать после падений (и пинков от своих создателей), подниматься по лестнице, взбираться по склону с уклоном до 30 градусов.</p>
+ <img src="img/spot (img)/climb.jpg" class="none-img"/>
+ <h3>Зрительные возможности</h3> 
+<p>Впереди расположены светодиодные индикаторы состояния, а сзади - набор разъемов. Благодаря пяти стереокамерам, Spot имеет 360° обзор, но видит только на 4 метра. Сенсоры выдают черно-белую картинку и позволяют построить карту глубины.</p>
+ <img src="img/spot (img)/see1.jpg" class="none-img"/>
+<p>Spot способен самостоятельно ориентировать в пространстве: избегать столкновений, адаптироваться к неровностям рельефа, преодолевать невысокие препятствия. Для этого он использует камеры, а также данные о данные о движении приводов (одометрию). Они формируют машинный аналог человеческого ощущения положения тела в пространстве. </p>
+<div class="video">
+<iframe  width="560" height="315" src="https://www.youtube.com/embed/Ve9kWX_KXus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p>Но робот все еще испытывает трудности: </p>
+<ul><li>на скользких поверхностях; </li>
+<li>с зеркальными или стеклянными, очень яркими препятствиями; </li>
+<li>с предметами ниже 30 см такие как провода и ведра;</li>
+<li>с высокой травой.</li></ul>
+<p>Spot может запоминать маршрут, и сохранять его, чтобы самостоятельно пройти путь вновь. </p>
+<p> Для этого необходимо включить запись и провести по дороге вручную. Периодически (обычно через каждые 2 метра) он будет останавливаться и делать фотографии.  Чтобы робот понимал и запоминал свое местоположение, ему нужны визуальные ориентиры, например углы, мебель, оборудования. </p>
+  <a class="deep" alt="Лучше места остановки помечать фидуциарами (картинки, похожие на QR-коды), хотя бы одним для обозначения начала пути."><img src="img/spot (img)/qr-kod.png" /></a>
+<p> Сохранённые маршруты может повторить любой робот, подключенный к контроллеру, на котором хранится запись.</p>
+<p> Spot может построить кратчайший путь и пройти его. Для этого робот сначала составляет карту местности, а затем на ней нужно выбрать места для посещения, и действия, которые должен совершить робот, и Spot выполнит задачу.</p>
+ <h3> Управление </h3> 
+ <p>Контроллер из себя представляет 7-дюймовый планшет, который называется Spot Explorer. Его используют для управления роботом.</p>
+
+   <a class="deep" alt=" Для удобства управления компания создала возможность удаленного подключения к роботу. Теперь Spot можно управлять, не выходя из офиса."> <img src="img/spot (img)/consol1.JPG" /></a>
+ <p> По середине расположен экран, показывающий вид от первого лица, а по бокам стики. Левый стик отвечает за перемещение, правый за поворот вокруг своей оси.</p>
+      <a class="deep" alt=" Также движение можно осуществлять касанием экрана, Spot будет перемещаться к указанной точке."><img src="img/spot (img)/consol2.jpg" /></a>
+	 <h3> Аккумулятор и грузоподъёмность</h3> 
+	   
+ <p>У ранних версий были двигатели внутреннего сгорания, теперь же у роботов появились электродвигатели с гидроприводом и аккумулятором. В связи с этим уменьшился шум, но также это отрицательно повлияло на автономность и грузоподъёмность.</p>
+ <img src="img/spot (img)/charge2.jpg" class="none-img"/>
+ <p>Аккумуляторы сменные литий-ионные, емкостью 600 Вт-ч (зарядное устройство - 400 Вт), заряжаются 2 часа, располагаются в брюхе робота. </p>
+          <a class="deep" alt="Интересный факт, что приводы могут генерировать ток, при некоторых движениях, правда незначительное количество."><img src="img/spot (img)/charge.jpg" /></a>
+ <p>Spot может перевозить на спине груз до 14кг. Время его работы от встроенного аккумулятора около 90 минут (или 4 часа в режиме ожидания), однако это зависит от переносимой тяжести.</p>
+ 
+
+ 
+ <h3> Дополнительные модули</h3> 
+ <p>На спине робота располагается пара алюминиевых рельсов, обеспечивающие возможность прикрепления груза или подключения различных модулей. Разъемы обеспечивают питание (до 150 Вт на порт) и передачу информации. А Spot учитывает параметры груза при ходьбе. </p>
+  <img src="img/spot (img)/back.jpg" class="none-img"/>
+ <p>Подключенные к роботу модули расширяют список его возможностей.</p> 
+   <img src="img/spot (img)/moduls.png" class="none-img"/>
+   
+ <img src="img/spot (img)/spot-arm.png" class="modul" style="max-height:150px"/> 
+ 
+<span class="bold"> Spot ARM </span>– механическая рука весом 8 кг. Снабжена комплектом датчиков, которые обеспечивают корректную работу. Манипулятор способен автоматически захватывает предметы, поднимать до 4 кг. </p> 
+ <p>Используя этот аксессуар, Spot может даже открыть дверь: установив положение ручки, робот выбирает угол захвата и устанавливает манипулятор, затем, решив тянуть или толкать, открывает дверь, помогая маневрированием всего тела.</p> 
+
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fUyU3lKzoio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+<ul class="infa" style="list-style-type: none"> 
+    <li><img src="img/spot (img)/spot-cam+.jpg" class="modul"/>
+<p><span class="bold">Spot CAM+</span> — то же самое, плюс управляемая pan-tilt-zoom-камера со скромным разрешением 2 МП и нескромным 30-кратным оптическим зумом.</p> </li>
+    <li><img src="img/spot (img)/spot-lidar.png" class="modul"/> 
+<p><span class="bold">LIDAR</span> позволяет уверенно ориентироваться на больших открытых пространствах и картировать местность. Но чтобы обрабатывать данные в реальном времени, Spot нужна дополнительная вычислительная мощность.</p></li>
+    <li><img src="img/spot (img)/spot-core.jpg" class="modul"/><p><span class="bold">CORE</span> — обычный компьютер под управлением Ubuntu Desktop 18.04 LTS в компактном исполнении. Внутри находится процессор Intel Core i5 восьмого поколения, 16 ГБ оперативной памяти DDR4 и SSD диск на 512 ГБ.  </p>
+<p>Для машинного обучения предусмотрен отдельный модуль — Core AI. </p></li></ul>
+<h3>Защита</h3>
+<p> Spot имеет рейтинг IP54 (степень защиты). Робот способен работать в дождливую погоду и при температуре от -20°С до 45°С. Его корпус, смягчающий удары, состоит из 2 слоев: наружного и внутреннего. Наружный сделан из поликарбоната, а внутренний из пенопласта.</p>
+<img src="img/spot (img)/protection.jpg" class="none-img"/>
+<h3>Применение</h3>
+<p>Spot — промышленный робот, который можно использовать в исследовательских  целях. </p> 
+<p>Spot не соответствует <span class="italic"> Трем Законам Робототехники:</span> </p>
+<ol style="border:2px solid #000"> 
+<li> Робот не может причинить вред человеку или своим бездействием допустить, чтобы человеку был причинён вред</li>
+<li>Робот должен повиноваться всем приказам, которые даёт человек, кроме тех случаев, когда эти приказы противоречат Первому Закону </li>
+<li> Робот должен заботиться о своей безопасности в той мере, в которой это не противоречит Первому или Второму Законам</li>
+</ol>
+<p><a class="web" href="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0_%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8">
+Взято: wikipedia.org </a></p>
+   <a class="deep" alt=" Шарниры могут прищемить пальцы, на такую ситуацию предусмотрен аварийный выключатель в приложении и на шасси робота"><img src="img/spot (img)/instruction.jpg" class="none-img"/></a>
+<p>Первоначально Boston Dynamics не знала где будет эксплуатироваться Spot. Осенью 2019 года они отправили 150 роботов для тестирования в разные сферы. </p>
+ <img src="img/spot (img)/fields.jpg" class="none-img"/>
+
+<h4>Строительство.</h4><p> Spot оказался полезен на стройплощадках. Ему было поручено фотографировать постройки в заранее выбранных позициях. Это нужно, чтобы следить за процессом строительства и соответствием чертежа, сравнивая с ранними снимками и трехмерным планом.</p>
+    <a class="deep" alt=" Интересный факт. SpotMini - самый тихий робот Boston Dynamics. Однако при работе, как и другие роботы компании, Spot создает шум. "/>
+<img src="img/spot (img)/project.jpg" class="none-img"/></a>
+<p>  Spot справляется с этой задачей намного лучше. Он не устает от монотонной работы и успевает сделать большее количество точных и всегда с одного ракурса, в отличии от человека, фотографий.</p>
+    <a class="deep" alt="Так на площадке Pomerleau пара роботов Spot еженедельно делала почти 5 000 фотографий, обходя территорию более 45 000 квадратных метров.">
+ <img src="img/spot (img)/project2.jpg" class="none-img"/></a>
+<h4>Промышленность.</h4><p> Роботы также помогают людям с мониторингом оборудования, часто в опасных условиях. Если установить к Spot, например тепловизор, то машина сможет заметить, то что пропустят люди, например перегрев. </p>
+    <a class="deep" alt=" Робот уже снимает показания с оборудования для поиска утечки нефти.">
+   <img src="img/spot (img)/oil.png" class="none-img"/></a>
+   
+<p> Spot уже используется для осмотра морских ветряных электростанций, генерирующих переменный ток, т.к. подстанции требуют регулярных проверок и обслуживания. </p>
+<h4>Медицина.</h4><p>С началом пандемии роботов стали применять в медицине для удаленной диагностики. </p>
+<p> Spot установили новые четыре камеры — инфракрасную и три монохромных. Инфракрасная камера измеряет температуру и частоту дыхания, а монохромные определяют насыщенность крови кислородом, фиксируя изменения цвета кожи.</p>
+ <img src="img/spot (img)/hospital.jpeg" class="none-img"/>
+
+
+  </div>
+  <div id="footer">
+  
+    <div class="logo"><a href="https://www.bostondynamics.com/" title="Офицальный сайт Boston Dynamics"><img src="img/page (img)/logotip.png" /></a> </div>
+<div class="origin"> 
+<h5>Источники:</h5>
+<ul style="list-style-type: none">
+<li><a href="https://habr.com/ru/post/521878/"> https://habr.com/ru/post/521878/</a></li>
+<li><a href=" https://ru.wikipedia.org/wiki/Boston_Dynamics">  https://ru.wikipedia.org/wiki/Boston_Dynamics</a></li>
+<li><a href="https://www.overclockers.ua/editorial/boston-dynamics-robots/">https://www.overclockers.ua/editorial/boston-dynamics-robots/ </a></li>
+ <li><a href="https://vc.ru/future/25909-boston-dynamics-robots"> https://vc.ru/future/25909-boston-dynamics-robots</a></li>
+ <li><a href="https://habr.com/ru/post/539290/"> https://habr.com/ru/post/539290/</a></li>
+  <li><a href="https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html"> https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html</a></li>
+   <li><a href="https://www.bostondynamics.com/"> https://www.bostondynamics.com/</a></li>
+   <li><a href="https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i">https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i</a></li>
+   <li><a href="https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/">https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/</a></li>
+
+ </ul>
+</div>
+<div class="author"><p>© Шевелева Алёна  Омск 2022 </p></div>
+
+</div>
+</div>
+   <div class="all" id="all"> <ul class="ul">  <li> <a href="#up">  <img src="img/page (img)/sand flea.png" id="jump" /> <div class="upwerds"> Наверх </div> </a> </li> </ul> </div>
+
+</body>
+</html>

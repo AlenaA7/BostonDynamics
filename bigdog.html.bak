@@ -1,0 +1,114 @@
+<html>
+ <head>
+ <meta charset="url-8">
+  <title> BigDog </title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#all').fadeIn();
+ 
+} else {
+ 
+$('#all').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#all').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+</head> 
+ <body>
+  <a id="up"><a>
+     <div id="maket">
+	 
+	   <div id="header" > <a href="https://www.bostondynamics.com/" title="сайт Boston Dynamics"><img src="img/page (img)/boston_dynamics.jpg" id="bost" /></a>  <h1> Немного о Boston Dynamics  </h1>  </div>
+   <div class="all"> <ul class="ul2">  <li> <a href="index.html"> <img src="img/page (img)/consoul.png"/> <div class="back"> Назад </div> </a> </li> </ul> </div>
+<div id="menu"> 
+	 <ul>
+	   <li><a href="home.html">Главная </a> </li>
+    	
+	  <li> <a>Компания <b class="arrow "></b></a>
+	  <ul><li><a href="history.html">История</a></li>
+	  <li><a href="future.html">О продукции</a></li>
+	  </ul></li> 	
+	  <li><a>Роботы <b class="arrow "></b> </a>
+     <ul style="margin-left: 25px">
+      <li><a href="spot.html">Spot </a></li>
+      <li><a href="atlas.html">Atlas </a></li>
+      <li><a href="bigdog.html">BigDog </a></li>
+      <li><a href="otherrobots.html">Другие роботы </a></li>
+     </ul></li>
+  </ul>
+</div>
+
+	 <div id="main"> 
+	<h2>BigDog</h2>
+  <img src="img/bigdog (img)/war.jpg" class="none-img" style="margin-top:0"/>
+	 <h3> Краткая характеристика</h3> 
+
+ <p>BigDog — четвероногий робот</p>
+ <h4>Первоначальные характеристики:</h4>
+<ul style="list-style-type: none"> 
+<li>высота 0,76 м </li>
+<li> длина 0,91 м</li>
+<li>  вес 110 кг</li> 
+<li> максимальный вес переносимого груза 155 кг</li> 
+<li> скорость перемещения 5–7 км/ч</li> </ul>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cNZPRsrwumQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p> Робот умел преодолевать уклоны до 35°, а также опускаться и вставать после падения. Работа совершалась за счет двигателя внутреннего сгорания мощностью 15 л.с.</p>
+ <h3>История создания</h3> 
+<p>BigDog был создан в 2005 году как переносчик груза по заказу Министерства Обороны США</p>
+<p>В 2009 году военные договориль с компанией о модернизации робота. Проект получил название LS3 (LeggedSquadSupportSystem), но инженеры BostonDynamics использовали между собой имя AlphaDog.</p>
+ <p> Результатами доработки стало увеличение грузоподъёмности до 182 кг и максимального расстояние движения с 32 до 45 км. Робот научился воспринимать голосовые команды.</p>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R7ezXBEBE6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+ <p> Новая версия была более надежной и время действия без поломок составила почти 3,5 часа (у прошлой версии неисправности появлялись через полчаса)</p>
+ <p>  Однако робот не был использован в 2015 году после успешной проверки. Причинами, по которым его не взяли, стали шум от дизельного двигателя и высокая стоимость.</p>
+<a class="deep" alt=" LittleDog — уменьшенная копия AlphaDog на почти бесшумных электромоторах, созданная в рамках контракта с DARPA "><img src="img/bigdog (img)/littledog.jpg" /></a>
+</div>
+
+
+
+
+  <div id="footer">
+    <div class="logo"><a href="https://www.bostondynamics.com/"  title="сайт Boston Dynamics"><img src="img/page (img)/logotip.png" /></a> </div>
+<div class="origin"> 
+<h5>Источники:</h5>
+<ul style="list-style-type: none">
+<li><a href="https://habr.com/ru/post/521878/"> https://habr.com/ru/post/521878/</a></li>
+<li><a href=" https://ru.wikipedia.org/wiki/Boston_Dynamics">  https://ru.wikipedia.org/wiki/Boston_Dynamics</a></li>
+<li><a href="https://www.overclockers.ua/editorial/boston-dynamics-robots/">https://www.overclockers.ua/editorial/boston-dynamics-robots/ </a></li>
+ <li><a href="https://vc.ru/future/25909-boston-dynamics-robots"> https://vc.ru/future/25909-boston-dynamics-robots</a></li>
+ <li><a href="https://habr.com/ru/post/539290/"> https://habr.com/ru/post/539290/</a></li>
+  <li><a href="https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html"> https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html</a></li>
+   <li><a href="https://www.bostondynamics.com/"> https://www.bostondynamics.com/</a></li>
+   <li><a href="https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i">https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i</a></li>
+   <li><a href="https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/">https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/</a></li>
+
+ </ul>
+</div>
+<div class="author"><p>© Шевелева Алёна  Омск 2022 </p></div>
+</div>
+</div>
+   <div class="all" id="all"> <ul class="ul">  <li> <a href="#up">  <img src="img/page (img)/sand flea.png" id="jump" /> <div class="upwerds"> Наверх </div> </a> </li> </ul> </div>
+
+</body>
+</html>

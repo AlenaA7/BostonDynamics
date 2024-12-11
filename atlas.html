@@ -1,0 +1,133 @@
+<html>
+ <head>
+ <meta charset="url-8">
+  <title> Atlas </title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#all').fadeIn();
+ 
+} else {
+ 
+$('#all').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#all').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+</head> 
+ <body>
+  <a id="up"><a>
+     <div id="maket">
+	 
+	   <div id="header" > <a href="https://www.bostondynamics.com/" title="Офицальный сайт Boston Dynamics"><img src="img/page (img)/boston_dynamics.jpg" id="bost" /></a>  <h1> Немного о Boston Dynamics  </h1>  </div>
+   <div class="all"> <ul class="ul2">  <li> <a href="index.html"> <img src="img/page (img)/consoul.png"/> <div class="back"> Назад </div> </a> </li> </ul> </div>
+<div id="menu"> 
+	 <ul>
+	   <li><a href="home.html">Главная </a> </li>
+    	
+	  <li> <a>Компания <b class="arrow "></b></a>
+	  <ul><li><a href="history.html">История</a></li>
+	  <li><a href="future.html">О продукции</a></li>
+	  </ul></li> 	
+	  <li><a>Роботы <b class="arrow "></b> </a>
+     <ul style="margin-left: 25px">
+      <li><a href="spot.html">Spot </a></li>
+      <li><a href="atlas.html">Atlas </a></li>
+      <li><a href="bigdog.html">BigDog </a></li>
+      <li><a href="otherrobots.html">Другие роботы </a></li>
+     </ul></li>
+  </ul>
+</div>
+
+
+	 <div id="main"> 
+	<h2>ATLAS</h2>
+	<img src="img/atlas (img)/atlas_1.jpg" class="none-img" style="margin-top:0"/>
+	 <h3> Краткая характеристика</h3> 
+
+ <p>Atlas – это гуманоидный робот </p>
+<ul style="list-style-type: none"> 
+<li> Его рост - 1,5 метра </li>
+<li>вес - 75 кг.</li> </ul>
+ 
+<h3>Передвижение</h3> 
+<p>Скорость Atlas может достигать 1,5 м/c - 5,4 км/ч (что примерно равно скорости ходьбы человека). Суммарно Atlas имеет 28 гидравлических шарниров-“суставов”.</p>
+ <img src="img/atlas (img)/leg.jpg" class="none-img"/>
+<p>Инженерам было необходимо уменьшить тяжесть конструкции Atlas (после добавления аккумулятора), поэтому они использовали более легкие материалы. Многие детали пришлось создавать с нуля и делать на 3D-принтере. </p>
+ <img src="img/atlas (img)/body.jpg" class="none-img"/>
+<p>Всего у робота 18 клапанов, которые образуют собой гидравлический коллектор. На каждую конечность встроены моторы и система охлаждения.</p>
+ <p> Atlas умеет бегать, прыгать, переносить груз до 11 кг, танцевать. </p>
+  <img src="img/atlas (img)/box.jpg" class="none-img"/>
+
+ <p> Для постановки танца пришлось звать хореографа. Предварительной задачей было определить движения, которые сможет выполнить робот. Для этого инженеры воспользовались моделированием, внося и корректируя идеи в симуляции. </p>
+ <div class="video"> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fn3KWM1kuAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ <p> Говоря о способностях Atlas, нельзя не отметить его сальто назад и паркур. Для обучения роботов компания создала специальную тренировочную площадку. После удачно прохождения полосы препятствий Atlas научились адаптировать движения относительно предметов в их поле зрения. Теперь для определенного трюка роботов не нужно заново программировать. </p>
+ 
+<div class="video"> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tF4DML7FIWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
+ <p>Робот экономит энергию, используя инерцию. Он умеет регулировать силу, прилагаемую ногами к земле, держать равновесие, балансировать руками. </p>
+<a class="deep" alt=" Интересный факт, что Atlas - единственный робот на Земле, который может выполнять трюки с точностью до 80%."><img src="img/atlas (img)/trick.jpg" /></a>
+ <h3>Восприятие мира</h3> 
+<p>Atlas получает визуальную информацию через стереозрение, лидары, передние камеры, гироскопы, дальномеры и другие сенсоры, некоторые из которых расположены в стопах. По телу робота размещены различные датчики, которые измеряют параметры взаимодействия робота с окружающим миром, такие как: ускорение робота, положение его тела в пространстве. Эти данные передаются в центральный процессор - чип, который после посылает сигнал на моторы. </p>
+<img src="img/atlas (img)/eyes.jpg" class="none-img"/>
+<p>Система управления робота координирует движение рук, ног и туловища, позволяя выполнять различные задачи. Выполняя работу, Atlas не выбирает что делать, ему это подсказывает оператор. Но за вычисления как это сделать отвечает сам робот. Для Atlas компания создала библиотеку предварительно рассчитанных траекторий движения. Суть в том, что использует Atlas эту базу данных и адаптирует их к текущим условиям. </p>
+ <img src="img/atlas (img)/see1.jpg" class="none-img"/>
+<p>Система восприятия робота - геометрическая сегментация. Это значит, что робот заменяет окружающие объекты на простые геометрические фигуру. Отталкиваясь от этих значений, система планирования продумывает несколько шагов вперед.</p>
+<img src="img/atlas (img)/see.jpg" class="none-img"/>
+	 <h3> Аккумулятор</h3> 
+	   
+ <p>В корпусе робота размещен компактный гидравлический силовой агрегат. Его масса 5 кг, а мощность 5кВт. Для его работы необходима батарея емкостью 1400 ватт*час. Агрегат вмещает электродвигатель, насос, резервуар, несколько фильтров, аккумулятор, электронику и систему охлаждения. Аккумулятор обеспечивает 1 час автономной работы, его емкость 3,7 кВч. </p>
+  <img src="img/atlas (img)/akkum.jpg" class="none-img"/>
+ <p>Разработчики добавили в робота-гуманоида аккумулятор емкостью 3,7 кВч, который может обеспечить ему час автономной работы. </p>
+
+<h3>Применение</h3>
+<p>Изначально Altas создавался для проведения спасательных операций после техногенных или природных катастроф.   </p> 
+<a class="deep" alt=" Интересный факт, что Atlas — это самый сложный робот в мире."><img src="img/atlas (img)/atlas_1.jpg" /></a>
+
+
+</div>
+  <div id="footer">
+    <div class="logo"><a href="https://www.bostondynamics.com/"  title="Офицальный сайт Boston Dynamics"><img src="img/page (img)/logotip.png" /></a> </div>
+<div class="origin"> 
+<h5>Источники:</h5>
+<ul style="list-style-type: none">
+<li><a href="https://habr.com/ru/post/521878/"> https://habr.com/ru/post/521878/</a></li>
+<li><a href=" https://ru.wikipedia.org/wiki/Boston_Dynamics">  https://ru.wikipedia.org/wiki/Boston_Dynamics</a></li>
+<li><a href="https://www.overclockers.ua/editorial/boston-dynamics-robots/">https://www.overclockers.ua/editorial/boston-dynamics-robots/ </a></li>
+ <li><a href="https://vc.ru/future/25909-boston-dynamics-robots"> https://vc.ru/future/25909-boston-dynamics-robots</a></li>
+ <li><a href="https://habr.com/ru/post/539290/"> https://habr.com/ru/post/539290/</a></li>
+  <li><a href="https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html"> https://www.ixbt.com/news/2021/08/18/boston-dynamics-atlas.html</a></li>
+   <li><a href="https://www.bostondynamics.com/"> https://www.bostondynamics.com/</a></li>
+   <li><a href="https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i">https://hi-news.ru/robots/kak-ustroen-samyj-slozhnyj-robot-na-zemle.html#i</a></li>
+   <li><a href="https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/">https://nat-geo.ru/science/universe/nasa-planiruet-otpravit-na-mars-robosobaku-boston-dynamics/</a></li>
+
+ </ul>
+</div>
+<div class="author"><p>© Шевелева Алёна  Омск 2022 </p></div>
+</div>
+</div>
+   <div class="all" id="all"> <ul class="ul">  <li> <a href="#up">  <img src="img/page (img)/sand flea.png" id="jump" /> <div class="upwerds"> Наверх </div> </a> </li> </ul> </div>
+
+</body>
+</html>
